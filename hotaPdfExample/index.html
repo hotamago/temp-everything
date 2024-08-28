@@ -6,9 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <script src="build/pdf.mjs" type="module"></script>
     <script src="js/viewer.mjs" type="module"></script>
+	<script src="js/hotaFunction.js"></script>
     <script>
         document.addEventListener("DOMContentLoaded", () => {
-            PDFViewerApplication.hotaLoad("https://mozilla.github.io/pdf.js/web/compressed.tracemonkey-pldi-09.pdf");
+            PDFViewerApplication.hotaLoad("http://localhost:8080/pdf/thinkpython.pdf");
         }, true);
     </script>
     <link rel="stylesheet" href="https://mozilla.github.io/pdf.js/web/viewer.css">
